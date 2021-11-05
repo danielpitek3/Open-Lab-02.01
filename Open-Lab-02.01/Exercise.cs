@@ -4,14 +4,16 @@ namespace Open_Lab_02._01
 {
     public class Exercise
     {
-        public double[] Create5Numbers()
+        static double[] Create5Numbers()
         {
-            throw new NotImplementedException();
+            double[] array1 = new double[] { 1.3, 3.4, 5.8, 7.2, 9.1 };
+            return array1;
         }
 
-        public double GetSecond(double[] numbers)
+        static double GetSecond(double[] numbers)
         {
-            throw new NotImplementedException();
+            double[] e = Create5Numbers();
+            return e[1];
         }
     }
 }
